@@ -19,6 +19,7 @@ import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.helfkea.crm.ui.theme.HelfkeaBlue
+import com.helfkea.crm.ui.theme.HelfkeaBlueDark
 import com.helfkea.crm.viewmodel.InteractionViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
