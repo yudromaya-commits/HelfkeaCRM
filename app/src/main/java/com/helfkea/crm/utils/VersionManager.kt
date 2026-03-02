@@ -118,7 +118,7 @@ object VersionManager {
             date = "2026-03-02",
             changes = listOf(
                 "🎨 ОБНОВЛЕН БРЕНДИНГ",
-                "✅ Изменено название приложения: RepressaSales → YO CRM",
+                "✅ Изменено название приложения: RepressaSales → HELFKEA CRM",
                 "✅ Обновлена иконка приложения",
                 "✅ Созданы иконки для всех плотностей экрана (mdpi, hdpi, xhdpi, xxhdpi, xxxhdpi)",
                 "✅ Обновлены адаптивные иконки (adaptive icons)",
@@ -155,6 +155,18 @@ object VersionManager {
                 "✅ Удалены дублирующиеся WEBP файлы",
                 "✅ Удалены старые XML файлы иконок из drawable",
                 "✅ Теперь только PNG файлы в mipmap папках"
+            )
+        ),
+        VersionInfo(
+            version = "v1.15",
+            date = "2026-03-02",
+            changes = listOf(
+                "🎨 ОБНОВЛЕНИЕ БРЕНДИНГА HELFKEA CRM",
+                "✅ Заменена иконка приложения на новую",
+                "✅ Обновлены все размеры иконок (mdpi, hdpi, xhdpi, xxhdpi, xxxhdpi)",
+                "✅ Обновлены круглые версии иконок",
+                "✅ Исправлено название проекта в settings.gradle.kts",
+                "✅ Удалены старые файлы из корневой директории"
             )
         )
     )

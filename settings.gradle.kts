@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "RepresSales"
+rootProject.name = "HelfkeaCRM"
 include(":app")

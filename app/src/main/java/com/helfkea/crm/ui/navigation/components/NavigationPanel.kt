@@ -119,7 +119,7 @@ fun NavigationPanel(
                     contentAlignment = Alignment.Center
                 ) {
                     androidx.compose.material3.Text(
-                        text = "v1.14",
+                        text = "v1.15",
                         style = androidx.compose.material3.MaterialTheme.typography.labelMedium,
                         fontWeight = FontWeight.Medium,
                         color = MaterialTheme.colorScheme.primary
