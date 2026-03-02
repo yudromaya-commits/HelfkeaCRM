@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Базовая тема приложения БЕЗ ActionBar -->
+    <style name="Theme.RepressaSales" parent="Theme.Material3.Light.NoActionBar">
+        <!-- HELFKEA CRM Colors -->
+        <item name="colorPrimary">@color/helfkea_blue</item>
+        <item name="colorPrimaryDark">@color/helfkea_blue</item>
+        <item name="colorOnPrimary">@color/helfkea_white</item>
+        <item name="colorSecondary">@color/helfkea_light_blue</item>
+        <item name="colorOnSecondary">@color/helfkea_blue</item>
+        <item name="colorSurface">@color/helfkea_white</item>
+        <item name="colorOnSurface">#FF000000</item>
+        <item name="colorAccent">@color/helfkea_blue</item>
+        
+        <!-- Button colors -->
+        <item name="materialButtonStyle">@style/Widget.Helfkea.Button</item>
+    </style>
+    
+    <!-- HELFKEA Button Style -->
+    <style name="Widget.Helfkea.Button" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/helfkea_blue</item>
+        <item name="android:textColor">@color/helfkea_white</item>
+    </style>
+</resources>
