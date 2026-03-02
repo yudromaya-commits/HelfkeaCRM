@@ -2,13 +2,10 @@ package com.helfkea.crm.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-// Красная тема компании
-val PrimaryRed = Color(0xFFD32F2F)    // Основной красный
-val PrimaryRedDark = Color(0xFFB71C1C) // Темный красный
-val PrimaryRedLight = Color(0xFFF44336) // Светлый красный
-
-val SecondaryRed = Color(0xFFEF5350)   // Вторичный красный
-val TertiaryRed = Color(0xFFE57373)    // Третичный красный
+// HELFKEA CRM Colors
+val HelfkeaLightBlue = Color(0xFFB4C7D3)    // #b4c7d3
+val HelfkeaBlue = Color(0xFF0182CD)         // #0182cd
+val HelfkeaWhite = Color(0xFFFFFFFF)        // #ffffff
 
 // Нейтральные цвета
 val White = Color(0xFFFFFFFF)
@@ -23,18 +20,17 @@ val Black = Color(0xFF000000)
 
 // Акцентные цвета
 val AccentAmber = Color(0xFFFFC107)    // Акцентный янтарный
-val AccentBlue = Color(0xFF2196F3)     // Акцентный синий
 
 // Для Material 3 ColorScheme
-val Primary40 = PrimaryRed
-val OnPrimary40 = White
-val PrimaryContainer40 = PrimaryRedLight
-val OnPrimaryContainer40 = PrimaryRedDark
+val Primary40 = HelfkeaBlue
+val OnPrimary40 = HelfkeaWhite
+val PrimaryContainer40 = HelfkeaLightBlue
+val OnPrimaryContainer40 = HelfkeaBlue
 
-val Secondary40 = Gray100
-val OnSecondary40 = Gray900
-val SecondaryContainer40 = Gray200
-val OnSecondaryContainer40 = Gray800
+val Secondary40 = HelfkeaLightBlue
+val OnSecondary40 = HelfkeaBlue
+val SecondaryContainer40 = HelfkeaWhite
+val OnSecondaryContainer40 = HelfkeaBlue
 
 val Tertiary40 = AccentAmber
 val OnTertiary40 = Gray900
@@ -44,19 +40,19 @@ val OnError40 = White
 val ErrorContainer40 = Color(0xFFFFDAD6)
 val OnErrorContainer40 = Color(0xFF410002)
 
-val Background40 = White
+val Background40 = HelfkeaWhite
 val OnBackground40 = Gray900
 
-val Surface40 = White
+val Surface40 = HelfkeaWhite
 val OnSurface40 = Gray900
-val SurfaceVariant40 = Gray100
-val OnSurfaceVariant40 = Gray700
+val SurfaceVariant40 = HelfkeaLightBlue
+val OnSurfaceVariant40 = HelfkeaBlue
 
 val Outline40 = Gray300
 val OutlineVariant40 = Gray200
 
 // Для темной темы (если понадобится)
-val Primary80 = PrimaryRedLight
+val Primary80 = HelfkeaLightBlue
 val OnPrimary80 = Black
-val PrimaryContainer80 = PrimaryRedDark
-val OnPrimaryContainer80 = PrimaryRedLight
+val PrimaryContainer80 = HelfkeaBlue
+val OnPrimaryContainer80 = HelfkeaLightBlue

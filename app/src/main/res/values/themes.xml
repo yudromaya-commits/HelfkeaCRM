@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Базовая тема приложения БЕЗ ActionBar -->
-    <style name="Theme.RepressaSales" parent="Theme.Material3.Light.NoActionBar">
+    <style name="Theme.HelfkeaCRM" parent="Theme.Material3.Light.NoActionBar">
         <!-- HELFKEA CRM Colors -->
         <item name="colorPrimary">@color/helfkea_blue</item>
         <item name="colorPrimaryDark">@color/helfkea_blue</item>

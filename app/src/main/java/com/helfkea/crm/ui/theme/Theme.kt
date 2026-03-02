@@ -67,7 +67,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun RepressaSalesTheme(
+fun HelfkeaCRMTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {

@@ -17,7 +17,7 @@ import com.helfkea.crm.model.Individual
 import com.helfkea.crm.model.UpdateTaskRequest
 import com.helfkea.crm.model.TaskStatus
 import com.helfkea.crm.model.PreselectedContragent
-import com.helfkea.crm.ui.theme.RepressaSalesTheme
+import com.helfkea.crm.ui.theme.HelfkeaCRMTheme
 import com.helfkea.crm.ui.tasks.screens.TaskView
 import com.helfkea.crm.ui.tasks.screens.CreateTaskPanel
 import com.helfkea.crm.ui.tasks.dialogs.EditTaskDialog
@@ -48,7 +48,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            RepressaSalesTheme {
+            HelfkeaCRMTheme {
                 AppContent()
             }
         }
