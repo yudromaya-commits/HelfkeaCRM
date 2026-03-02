@@ -5,6 +5,7 @@ import androidx.compose.ui.graphics.Color
 // HELFKEA CRM Colors
 val HelfkeaLightBlue = Color(0xFFB4C7D3)    // #b4c7d3
 val HelfkeaBlue = Color(0xFF0182CD)         // #0182cd
+val HelfkeaBlueDark = Color(0xFF0165A3)     // Более тёмный оттенок синего
 val HelfkeaWhite = Color(0xFFFFFFFF)        // #ffffff
 
 // Нейтральные цвета
