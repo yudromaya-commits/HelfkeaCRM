@@ -21,7 +21,7 @@ import com.helfkea.crm.model.ContactAddress
 import com.helfkea.crm.model.Interaction
 import com.helfkea.crm.utils.toReadableDateTime
 import androidx.compose.foundation.BorderStroke
-import com.helfkea.crm.ui.theme.PrimaryRed
+import com.helfkea.crm.ui.theme.HelfkeaBlue
 import androidx.compose.material3.Badge
 import androidx.compose.material3.BadgedBox
 
@@ -223,7 +223,7 @@ fun InteractionsSection(
                 BadgedBox(
                     badge = {
                         Badge(
-                            containerColor = PrimaryRed,
+                            containerColor = HelfkeaBlue,
                             contentColor = Color.White
                         ) {
                             Text(interactions.size.toString())
@@ -244,9 +244,9 @@ fun InteractionsSection(
                 onClick = onCreateInteraction,
                 modifier = Modifier.fillMaxWidth(),
                 colors = ButtonDefaults.outlinedButtonColors(
-                    contentColor = PrimaryRed
+                    contentColor = HelfkeaBlue
                 ),
-                border = BorderStroke(1.dp, PrimaryRed.copy(alpha = 0.5f)),
+                border = BorderStroke(1.dp, HelfkeaBlue.copy(alpha = 0.5f)),
                 shape = RoundedCornerShape(8.dp)
             ) {
                 Icon(Icons.Default.Add, contentDescription = "Добавить")

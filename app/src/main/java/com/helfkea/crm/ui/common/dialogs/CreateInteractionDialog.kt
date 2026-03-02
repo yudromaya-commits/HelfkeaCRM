@@ -18,8 +18,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.helfkea.crm.ui.theme.PrimaryRed
-import com.helfkea.crm.ui.theme.PrimaryRedDark
+import com.helfkea.crm.ui.theme.HelfkeaBlue
 import com.helfkea.crm.viewmodel.InteractionViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -85,7 +84,7 @@ fun CreateInteractionDialog(
                 Text(
                     text = "Добавить взаимодействие",
                     style = MaterialTheme.typography.headlineMedium,
-                    color = PrimaryRedDark,
+                    color = HelfkeaBlueDark,
                     fontWeight = FontWeight.Bold
                 )
 
@@ -111,7 +110,7 @@ fun CreateInteractionDialog(
                         checked = isSecure,
                         onCheckedChange = { isSecure = it },
                         colors = CheckboxDefaults.colors(
-                            checkedColor = PrimaryRed,
+                            checkedColor = HelfkeaBlue,
                             checkmarkColor = Color.White
                         )
                     )
@@ -146,9 +145,9 @@ fun CreateInteractionDialog(
                             )
                         },
                         colors = OutlinedTextFieldDefaults.colors(
-                            focusedBorderColor = PrimaryRed,
+                            focusedBorderColor = HelfkeaBlue,
                             unfocusedBorderColor = Color.Gray,
-                            focusedLabelColor = PrimaryRedDark,
+                            focusedLabelColor = HelfkeaBlueDark,
                             focusedTextColor = Color.Black,
                             unfocusedTextColor = Color.Black
                         ),
@@ -208,9 +207,9 @@ fun CreateInteractionDialog(
                     maxLines = 4,
                     keyboardOptions = KeyboardOptions(imeAction = ImeAction.Done),
                     colors = OutlinedTextFieldDefaults.colors(
-                        focusedBorderColor = PrimaryRed,
+                        focusedBorderColor = HelfkeaBlue,
                         unfocusedBorderColor = Color.Gray,
-                        focusedLabelColor = PrimaryRedDark,
+                        focusedLabelColor = HelfkeaBlueDark,
                         focusedTextColor = Color.Black,
                         unfocusedTextColor = Color.Black
                     ),
@@ -266,7 +265,7 @@ fun CreateInteractionDialog(
                         modifier = Modifier.weight(1f),
                         enabled = !isLoading && selectedTypeId != null && comment.isNotBlank(),
                         colors = ButtonDefaults.buttonColors(
-                            containerColor = PrimaryRed,
+                            containerColor = HelfkeaBlue,
                             contentColor = Color.White
                         )
                     ) {

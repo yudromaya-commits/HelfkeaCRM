@@ -143,7 +143,7 @@ private fun CompanyHeader() {
         // Заголовок CRM с красным акцентом
         Text(
             text = "YO ORTHO CRM",
-            color = PrimaryRedDark,
+            color = HelfkeaBlueDark,
             fontSize = 26.sp,
             fontWeight = FontWeight.Bold,
             letterSpacing = 1.sp
@@ -186,9 +186,9 @@ private fun NavigationItemRow(
     isSelected: Boolean,
     onItemClick: () -> Unit
 ) {
-    val backgroundColor = if (isSelected) PrimaryRed.copy(alpha = 0.1f) else Color.Transparent
-    val iconColor = if (isSelected) PrimaryRed else Gray700
-    val textColor = if (isSelected) PrimaryRedDark else Gray800
+    val backgroundColor = if (isSelected) HelfkeaBlue.copy(alpha = 0.1f) else Color.Transparent
+    val iconColor = if (isSelected) HelfkeaBlue else Gray700
+    val textColor = if (isSelected) HelfkeaBlueDark else Gray800
 
     Row(
         modifier = Modifier
@@ -241,7 +241,7 @@ private fun BrandLogo() {
         // Текст под логотипом
         Text(
             text = "Sales Representative",
-            color = PrimaryRedDark,
+            color = HelfkeaBlueDark,
             fontSize = 14.sp,
             fontWeight = FontWeight.Bold
         )
@@ -257,7 +257,7 @@ private fun BrandLogo() {
 
 // Дополнительные стили для кнопок в красно-белой теме
 @Composable
-fun PrimaryRedButton(
+fun HelfkeaBlueButton(
     text: String,
     onClick: () -> Unit,
     modifier: Modifier = Modifier,
@@ -268,7 +268,7 @@ fun PrimaryRedButton(
         modifier = modifier,
         enabled = enabled,
         colors = androidx.compose.material3.ButtonDefaults.buttonColors(
-            containerColor = PrimaryRed,
+            containerColor = HelfkeaBlue,
             contentColor = White,
             disabledContainerColor = Gray300,
             disabledContentColor = Gray700
@@ -291,13 +291,13 @@ fun OutlinedRedButton(
         modifier = modifier,
         enabled = enabled,
         colors = androidx.compose.material3.ButtonDefaults.outlinedButtonColors(
-            contentColor = PrimaryRed,
+            contentColor = HelfkeaBlue,
             disabledContentColor = Gray500
         ),
         // Исправляем border - создаем новый BorderStroke
         border = androidx.compose.foundation.BorderStroke(
             width = 1.dp,
-            color = if (enabled) PrimaryRed else Gray400
+            color = if (enabled) HelfkeaBlue else Gray400
         ),
         shape = RoundedCornerShape(8.dp)
     ) {
