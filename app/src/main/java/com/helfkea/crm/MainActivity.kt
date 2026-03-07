@@ -18,7 +18,7 @@ import com.helfkea.crm.model.UpdateTaskRequest
 import com.helfkea.crm.model.TaskStatus
 import com.helfkea.crm.model.PreselectedContragent
 import com.helfkea.crm.ui.theme.HelfkeaCRMTheme
-import com.helfkea.crm.ui.tasks.screens.TaskView
+import com.helfkea.crm.ui.tasks.screens.OfflineTaskView
 import com.helfkea.crm.ui.tasks.screens.CreateTaskPanel
 import com.helfkea.crm.ui.tasks.dialogs.EditTaskDialog
 import com.helfkea.crm.ui.calendar.screens.CalendarWithKanbanView
@@ -180,7 +180,7 @@ fun AppContent() {
                 } else {
                     // Показываем соответствующий раздел
                     when (currentSection) {
-                        "Задачи" -> TaskView(
+                        "Задачи" -> OfflineTaskView(
                             modifier = Modifier.weight(1f),
                             onTaskClick = { task -> selectedTask = task },
                             onCreateTaskClick = {

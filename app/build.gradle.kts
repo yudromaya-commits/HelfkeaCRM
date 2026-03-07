@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-kapt")
 }
 
 android {
@@ -114,6 +115,17 @@ dependencies {
     // DataStore для хранения версии
     implementation("androidx.datastore:datastore-preferences:1.1.0")
     implementation("androidx.datastore:datastore-preferences-core:1.1.0")
+
+    // Room для локального хранения
+    implementation("androidx.room:room-runtime:2.6.1")
+    implementation("androidx.room:room-ktx:2.6.1")
+    kapt("androidx.room:room-compiler:2.6.1")
+
+    // WorkManager для фоновой синхронизации
+    implementation("androidx.work:work-runtime-ktx:2.9.0")
+
+    // Kotlin Coroutines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")

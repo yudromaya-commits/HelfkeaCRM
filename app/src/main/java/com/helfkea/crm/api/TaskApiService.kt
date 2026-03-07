@@ -122,7 +122,7 @@ interface TaskApiService {
 
 
 object TaskApi {
-    private const val BASE_URL = "http://hf.serverworkdev.ru:8058/utHelf/hs/repressale/"
+    private const val BASE_URL = "http://yo.serverworkdev.ru:8055/test_yo/hs/repressale/"
 
     // Динамические учетные данные (будут устанавливаться после авторизации)
     private var currentUsername: String? = null
